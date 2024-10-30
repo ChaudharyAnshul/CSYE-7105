@@ -33,7 +33,7 @@ srun --nodes=2 --ntasks-per-node=10 --cpus-per-task=2 --mem=2G --time=00:30:00 -
 squeue -u chaudhary.ans
 ```
 
-7, Cancel the job by using jobid in Q4.             2pts
+7. Cancel the job by using jobid in Q4.             2pts
 ```
 scancel <jobid>
 ```
@@ -62,6 +62,7 @@ module load gcc/11.1.0
     1. Transfer csye7105_ex1.c from your local machine to your $HOME/tmp7105/hands-on-test on Discovery.      2 pts
     ```
     use - ood.discovery.neu.edu
+    scp /my/path chaudhary.ans@xfer.discovery.neu.edu:/home/chaudhary.ans/tmp7105/hands-on-test
     ```
     2. On login node, compile the parallelized C program csye7105_ex1.c with OpenMP flag and get the executable file: csye7105_ex1.         4 pts
     ```
@@ -92,6 +93,13 @@ module load gcc/11.1.0
     1. Load module of anaconda3/2022.05 and check available modules in your environment.         2 pts
     ```
     module load anaconda3/2022.05
+    module list
     ```
     2. List your conda environments.                 1 pts
+    ```
+    conda env list 
+    ```
     3. List the software packages within your conda environment.      1 pts
+    ```
+    conda list -e <name>
+    ```
