@@ -1,0 +1,3 @@
+download and unizp the data here 
+into test and train folders 
+data - https://www.kaggle.com/datasets/bittlingmayer/amazonreviews/data
