@@ -1,3 +1,8 @@
 download and unizp the data here 
 into test and train folders 
 data - https://www.kaggle.com/datasets/bittlingmayer/amazonreviews/data
+
+download data and extract inside this folder
+rename files 
+train -> main_data.ft.txt
+test -> subset_data.ft.txt
